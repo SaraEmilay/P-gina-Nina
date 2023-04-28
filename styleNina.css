@@ -1,0 +1,119 @@
+body{
+    background: linear-gradient( to right, rgb(207, 141, 18),white,black);
+    animation: gradient 15s ease infinite;
+	height: 100vh;
+    background-size: 400% 400%;
+    
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.insta{
+    padding-right: 10px; margin-top: auto;
+   
+}
+ .insta:hover{
+    transform:scale(1.2);
+ }
+
+.git:hover{
+    transform: scale(1.2);
+}
+.link:hover{
+    transform: scale(1.2);
+}
+.Perfil{
+    display: block;
+    text-align: center;
+    
+    
+    
+}
+.FtNina{
+    border-radius: 50%;
+    border: solid white 5px;
+}
+.Nome{
+    margin-top: 0%;
+    font: oblique;
+    color:black;
+    -webkit-text-stroke: 1px white;
+    
+
+    
+}
+.textos{
+    display: flex;
+}
+.Parte1{
+display: block;
+width: 200px;
+border: solid black 5px;
+background-color: white;
+margin-left: 5%;
+}
+.Parte2{
+    display:block;
+    width: 200px;
+    border: solid orange 5px;
+    background-color: black;
+    margin-left:5%;
+    color: white;
+}
+.Parte3{
+    display: block;
+    width: 200px;
+    border: white solid 5px;
+    background-color: orange;
+    margin-left: 5%;
+    color: black;
+}
+.Parte4{
+    display: block;
+    width: 200px;
+    border: black solid 5px;
+    background-color: white;
+    margin-left: 5%;
+    color: orange
+
+}
+.Parte5{
+    display: block;
+    width: 200px;
+    border: orange solid 5px;
+    background-color: black;
+    margin-left: 5%;
+    color: white
+}
+
+.Corpo{
+     display: inline;
+    text-align: center;
+
+}
+.gifNina{
+    display: flex;
+    text-align: center;
+    height: 200px;
+    width: 100px;
+    padding-top: 40px;
+    padding-left: 600px;
+
+   
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
